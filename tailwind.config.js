@@ -9,7 +9,7 @@ export default {
       fontFamily: {
         Roboto: ["Roboto"],
         Poppins: ["Poppins"],
-        PlaywriteCu: ["Playwrite CU", "cursive"]
+        PlaywriteCo: ["Playwrite CO"]
       }
     },
   },

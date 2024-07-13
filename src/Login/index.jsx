@@ -2,8 +2,13 @@ import { Link } from 'react-router-dom';
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { TiSocialGooglePlus } from "react-icons/ti";
+import { useState } from 'react';
 
 export default function Login() {
+    const [usuario,setUsuario] = useState()
+    const [password,setPassword] = useState()
+
+
     return (
         <div className="font-Poppins w-full h-[100vh] flex justify-center items-center bg-[#FAE6CA]">
             <div className="flex w-[50vw] h-[50vh] justify-center gap-[80px] items-center rounded-full bg-[#EF6D7A]">
@@ -25,7 +30,7 @@ export default function Login() {
                     <div className="w-[3px] h-[80px] border-none rounded-2xl bg-[#FAE6CA]">
 
                     </div>
-                    <div className="w-[50px] h-[50px] border-4 rounded-full flex items-center justify-center border-[#FAE6CA]">
+                    <div className="font-Poppins w-[60px] h-[60px] border-4 rounded-full flex items-center justify-center border-[#FAE6CA]">
                         <p><strong>OR</strong></p>
                     </div>
                     <div className="w-[3px] h-[80px] border-none border-2 rounded-2xl bg-[#FAE6CA]">
@@ -37,9 +42,11 @@ export default function Login() {
                         <strong className='text-[25px]'>Sign In Manually</strong>
                     </div>
                     <div className="flex flex-col items-center justify-center gap-[8px]">
-                        <input className='w-[250px] h-[50px] pl-[20px] rounded-xl placeholder-black'
+                        <input onChange={(e) => setUsuario(e.target.value)}
+                        className='w-[250px] h-[50px] pl-[20px] rounded-xl placeholder-black'
                          type="text" placeholder='Username or email' />
-                        <input className='w-[250px] h-[50px] pl-[20px] rounded-xl placeholder-black'
+                        <input onChange={(e) => setPassword(e.target.value)}
+                        className='w-[250px] h-[50px] pl-[20px] rounded-xl placeholder-black'
                          type="password" placeholder='Password' />
                     </div>
                     <div className="flex justify-center items-center">
