@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Roboto: ["Roboto"],
+        Poppins: ["Poppins"],
+        PlaywriteCu: ["Playwrite CU", "cursive"]
+      }
+    },
   },
   plugins: [],
 }
