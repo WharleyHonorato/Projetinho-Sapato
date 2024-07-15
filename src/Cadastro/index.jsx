@@ -16,9 +16,9 @@ export default function Cadastro () {
 
     return (
         <div className="w-full h-[100vh] flex justify-center items-center bg-[#FAE6CA]">
-            <div className="w-[30vw] h-[100vh] flex flex-col justify-center items-center rounded-full bg-[#EF6D7A]">
-                <div className="w-[20vw] h-[vh] flex flex-col items-center justify-between text-center gap-[10px]">
-                    <img className="w-[100px]" src="https://cdn-icons-png.flaticon.com/512/4647/4647492.png" alt="" />
+            <div className="w-[30vw] h-[90vh] flex flex-col justify-center items-center rounded-full bg-[#EF6D7A]">
+                <div className="w-[20vw] h-[] flex flex-col items-center justify-between text-center gap-[10px]">
+                    <img className="w-[120px]" src="https://cdn-icons-png.flaticon.com/512/4647/4647492.png" alt="" />
                     <h1 className="text-[17px] italic font-Roboto"><strong>Olá, seja bem-vindo à nossa loja, é um prazer tê-lo como cliente! Para realizar seu cadastro e ficar por dentro de todas as novidades, basta preencher todos os campos abaixo:</strong></h1>
                 </div>
                 <div className="flex flex-col items-center gap-[10px] mt-5">

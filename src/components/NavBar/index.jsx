@@ -21,7 +21,7 @@ function NavBar() {
           </p>
         </div>
         <div className="w-full">
-          <div className=" w-[85%] flex justify-center items-center h-full">
+          <div className=" w-[80%] flex justify-center items-center h-full">
             <div className="flex items-center justify-center bg-[#FFEB96] p-2 rounded-2xl h-[32%]">
               <input
                 className="font-Poppins font-bold text-[15px] outline-none pl-5 w-full h-full bg-[#FFEB96] text-black placeholder-black"

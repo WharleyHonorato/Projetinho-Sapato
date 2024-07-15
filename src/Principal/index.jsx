@@ -12,7 +12,7 @@ export default function Principal () {
     }, []);
 
     return (
-        <div className="w-full h-[255vh] bg-[#FAE6CA]">
+        <div className="w-full h-[220vh] bg-[#FAE6CA]">
           <NavBar/>
             <div className="mt-5">
                 <div className="flex flex-wrap w-full h-screen justify-center gap-5 font-Roboto  text-center">

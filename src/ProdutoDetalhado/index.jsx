@@ -21,7 +21,7 @@ const ProdutoDetalhado = () => {
         <>
         <NavBar/>
         <div className="w-full h-full bg-[#FAE6CA] flex flex-col">
-            <div className="w-full h-[671px] flex justify-center items-center">
+            <div className="w-full h-[823px] flex justify-center items-center">
                 <div className="font-Roboto text-black border-[3px] w-[850px] h-[75vh] shadow-xl shadow-[#EF6D7A]/100 bg-white rounded-xl border-black overflow-hidden flex items-center justify-around flex-col">
                     <p className="text-xl"><strong>{produto.title}</strong></p>
                     <img className="w-[200px]" src={produto.image} alt={produto.title} />
