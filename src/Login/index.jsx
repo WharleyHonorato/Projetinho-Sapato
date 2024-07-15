@@ -11,7 +11,7 @@ export default function Login() {
 
     return (
         <div className="font-Poppins w-full h-[100vh] flex justify-center items-center bg-[#FAE6CA]">
-            <div className="flex w-[50vw] h-[50vh] justify-center gap-[80px] items-center rounded-full bg-[#EF6D7A]">
+            <div className="flex w-[60vw] h-[60vh] justify-center gap-[80px] items-center rounded-full bg-[#EF6D7A]">
                 <div className="flex flex-col gap-[30px] justify-center">
                     <div className="flex justify-evenly items-center text-white rounded-xl w-[250px] h-[50px] bg-[#507DC0]">
                         <FaFacebookF size={30} />

@@ -18,7 +18,7 @@ export default function Principal () {
         <div className="w-full h-[120px]  bg-[#EF6D7A] flex">
           <div className="pl-10 gap-5 flex items-center">
             <img className="w-[130px]" src="https://cdn-icons-png.flaticon.com/512/4647/4647492.png" alt="" />
-            <p className="text-lg text-center font-PlaywriteCo"><strong>Bazar da Park Bom, todo dia novas mercadorias com qualidade e preço baixo!</strong></p>
+            <p className="text-lg text-center font-PlaywriteCo"><strong>Bazar da , todo dia novas mercadorias com qualidade e preço baixo!</strong></p>
           </div>
           <div className="w-full">
             <div className=" w-[80%] flex justify-center items-center h-full">
