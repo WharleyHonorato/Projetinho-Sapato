@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <>
-      <div className="w-full h-[120px] bg-[#EF6D7A] flex">
+      <div className="w-full h-[130px] bg-[#EF6D7A] flex">
         <div className="pl-10 gap-5 flex items-center">
           <img
             className="w-[130px]"
