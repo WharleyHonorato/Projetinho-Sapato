@@ -3,8 +3,7 @@ import { Link } from "react-router-dom";
 import NavBar from "../components/NavBar";
 
 export default function Principal () {
-    const [produtos, setProdutos] = useState([]);
-    const [loading, setLoading] = useState(false)
+    const [produtos, setProdutos] = useState([])
 
     useEffect(() => {
         fetch('https://fakestoreapi.com/products')
