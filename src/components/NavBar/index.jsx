@@ -15,7 +15,7 @@ function NavBar() {
           />
           <p className="text-lg text-center font-PlaywriteCo">
             <strong>
-              Bazar da Rochelle , todo dia novas mercadorias com qualidade e
+              Lojinha da Manu, todo dia novas mercadorias com qualidade e
               preço baixo!
             </strong>
           </p>
